@@ -1,0 +1,18 @@
+{
+  "name": "taobao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --outDir ./build -p ./tsconfig.json",
+    "dev": "tsc --outDir ./build -p ./tsconfig.json -watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "fetch-mock": "^9.7.0",
+    "node-fetch": "^2.6.0",
+    "typescript": "^3.8.3"
+  }
+}

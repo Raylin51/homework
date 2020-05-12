@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom",
+      "dom.iterable",
+    ],
+    "strict": true,
+    "baseUrl": "./",
+  },
+  "include": [
+    "src/*"
+  ]
+}
